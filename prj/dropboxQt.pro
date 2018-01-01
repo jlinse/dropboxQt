@@ -1,6 +1,7 @@
 QT       += network xml
 QT       -= gui
-CONFIG += staticlib
+#CONFIG += staticlib
+DEFINES += DROPBOXQT_DLL
 CONFIG -= flat
 TEMPLATE = lib
 

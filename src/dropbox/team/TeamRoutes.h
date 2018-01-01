@@ -220,7 +220,7 @@ namespace team{
     DECLARE_API_ERR_EXCEPTION(DateRangeErrorException, team::DateRangeError);
 
 
-    class TeamRoutes: public DropboxRouteBase{
+    class DROPBOXQT_DLLSPEC TeamRoutes: public DropboxRouteBase{
     public:
         TeamRoutes(Endpoint* ep):DropboxRouteBase(ep){};
             /**

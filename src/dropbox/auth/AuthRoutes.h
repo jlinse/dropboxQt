@@ -13,7 +13,7 @@ namespace dropboxQt{
 namespace auth{
 
 
-    class AuthRoutes: public DropboxRouteBase{
+    class DROPBOXQT_DLLSPEC AuthRoutes: public DropboxRouteBase{
     public:
         AuthRoutes(Endpoint* ep):DropboxRouteBase(ep){};
             /**

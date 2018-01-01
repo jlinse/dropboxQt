@@ -4,6 +4,8 @@
 #include "dropbox/endpoint/ApiException.h"
 #include "dropbox/endpoint/ApiClient.h"
 
+
+
 namespace dropboxQt{
 
     namespace auth      { class AuthRoutes; };
@@ -11,7 +13,7 @@ namespace dropboxQt{
     namespace sharing   { class SharingRoutes; };
     namespace team      { class TeamRoutes; };
     namespace users     { class UsersRoutes; };
-    class Endpoint;
+    class DROPBOXQT_DLLSPEC Endpoint;
 
     /**
        @brief DropboxClient - v2 Dropbox API Client for Qt/C++11
@@ -57,7 +59,7 @@ namespace dropboxQt{
        }       
     */
 
-    class DropboxClient: public ApiClient{
+    class DROPBOXQT_DLLSPEC DropboxClient: public ApiClient{
         Q_OBJECT
     public:
         DropboxClient();

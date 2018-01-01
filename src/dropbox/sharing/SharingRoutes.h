@@ -198,7 +198,7 @@ namespace sharing{
     DECLARE_API_ERR_EXCEPTION(UpdateFolderPolicyErrorException, sharing::UpdateFolderPolicyError);
 
 
-    class SharingRoutes: public DropboxRouteBase{
+    class DROPBOXQT_DLLSPEC SharingRoutes: public DropboxRouteBase{
     public:
         SharingRoutes(Endpoint* ep):DropboxRouteBase(ep){};
             /**

@@ -26,7 +26,7 @@ namespace users{
     DECLARE_API_ERR_EXCEPTION(GetAccountBatchErrorException, users::GetAccountBatchError);
 
 
-    class UsersRoutes: public DropboxRouteBase{
+    class DROPBOXQT_DLLSPEC UsersRoutes: public DropboxRouteBase{
     public:
         UsersRoutes(Endpoint* ep):DropboxRouteBase(ep){};
             /**

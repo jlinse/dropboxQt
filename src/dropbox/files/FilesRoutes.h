@@ -173,7 +173,7 @@ namespace files{
     DECLARE_API_ERR_EXCEPTION(UploadSessionFinishErrorException, files::UploadSessionFinishError);
 
 
-    class FilesRoutes: public DropboxRouteBase{
+    class DROPBOXQT_DLLSPEC FilesRoutes: public DropboxRouteBase{
     public:
         FilesRoutes(Endpoint* ep):DropboxRouteBase(ep){};
             /**
