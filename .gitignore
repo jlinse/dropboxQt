@@ -6,6 +6,5 @@ moc_*.cpp
 examples/authorize/authorize
 examples/boxbash/boxbash
 examples/token.info
-
-
 /prj/dropboxQt.pro.user
+build-*
