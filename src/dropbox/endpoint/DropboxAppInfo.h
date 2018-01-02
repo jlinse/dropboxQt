@@ -1,9 +1,10 @@
 #pragma once
 
 #include <QString>
+#include "dropbox/DropboxExportMacro.h"
 
 namespace dropboxQt{
-    class DropboxAppInfo
+    class DROPBOXQT_DLLSPEC DropboxAppInfo
     {
     public:
         DropboxAppInfo();

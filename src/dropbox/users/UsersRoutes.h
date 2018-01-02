@@ -15,6 +15,7 @@
 #include "dropbox/users/UsersGetAccountBatchError.h"
 #include "dropbox/users/UsersGetAccountError.h"
 #include "dropbox/users/UsersSpaceUsage.h"
+#include "dropbox/DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace users{

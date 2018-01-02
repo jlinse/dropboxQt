@@ -84,6 +84,7 @@
 #include "dropbox/files/FilesUploadSessionLookupError.h"
 #include "dropbox/files/FilesUploadSessionStartArg.h"
 #include "dropbox/files/FilesUploadSessionStartResult.h"
+#include "../DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace files{

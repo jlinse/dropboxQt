@@ -6,7 +6,7 @@
 
 namespace dropboxQt{
 
-    class Endpoint : public ApiEndpoint {
+    class DROPBOXQT_DLLSPEC Endpoint : public ApiEndpoint {
     public:
         Endpoint(ApiClient* c);
 

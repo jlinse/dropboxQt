@@ -97,6 +97,7 @@
 #include "dropbox/sharing/SharingUpdateFolderMemberError.h"
 #include "dropbox/sharing/SharingUpdateFolderPolicyArg.h"
 #include "dropbox/sharing/SharingUpdateFolderPolicyError.h"
+#include "dropbox/DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace sharing{

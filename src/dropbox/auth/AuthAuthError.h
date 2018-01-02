@@ -7,10 +7,11 @@
 #pragma once
 
 #include "dropbox/endpoint/ApiUtil.h"
+#include "../DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace auth{
-    class AuthError{
+    class DROPBOXQT_DLLSPEC AuthError{
         /**
             Errors occurred during authentication.
 

@@ -110,6 +110,7 @@
 #include "dropbox/team/TeamUpdatePropertyTemplateArg.h"
 #include "dropbox/team/TeamUpdatePropertyTemplateResult.h"
 #include "dropbox/team/TeamUserSelectorArg.h"
+#include "dropbox/DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace team{

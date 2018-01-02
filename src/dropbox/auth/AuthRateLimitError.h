@@ -10,7 +10,7 @@
 
 namespace dropboxQt{
 namespace auth{
-    class RateLimitError{
+    class DROPBOXQT_DLLSPEC RateLimitError{
         /**
             Error occurred because the app is being rate limited.
 

@@ -3,7 +3,7 @@
 #include "dropbox/endpoint/DropboxAuthInfo.h"
 #include "dropbox/endpoint/ApiException.h"
 #include "dropbox/endpoint/ApiClient.h"
-
+#include "DropboxExportMacro.h"
 
 
 namespace dropboxQt{

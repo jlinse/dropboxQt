@@ -1,10 +1,11 @@
 #pragma once
 
 #include "ApiUtil.h"
+#include "dropbox/DropboxExportMacro.h"
 
 namespace dropboxQt{
     
-    class DropboxHost
+    class DROPBOXQT_DLLSPEC DropboxHost
     {
     public:
         

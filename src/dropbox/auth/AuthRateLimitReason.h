@@ -7,10 +7,11 @@
 #pragma once
 
 #include "dropbox/endpoint/ApiUtil.h"
+#include "../DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace auth{
-    class RateLimitReason{
+    class DROPBOXQT_DLLSPEC RateLimitReason{
         /**
             field: too_many_requests: You are making too many requests in the
                 past few minutes.

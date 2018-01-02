@@ -13,12 +13,6 @@
 #include <QNetworkReply>
 #include "ApiException.h"
 
-#if defined DROPBOXQT_DLL
- #define DROPBOXQT_DLLSPEC Q_DECL_EXPORT
-#else
- #define DROPBOXQT_DLLSPEC Q_DECL_IMPORT
-#endif
-
 namespace dropboxQt {
     bool loadJsonFromFile(QString path, QJsonObject& js);
     bool storeJsonToFile(QString path, const QJsonObject js);

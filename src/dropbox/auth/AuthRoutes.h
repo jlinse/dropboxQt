@@ -8,6 +8,7 @@
 
 #include "dropbox/endpoint/ApiUtil.h"
 #include "dropbox/DropboxRouteBase.h"
+#include "../DropboxExportMacro.h"
 
 namespace dropboxQt{
 namespace auth{

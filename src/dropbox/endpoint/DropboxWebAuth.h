@@ -6,7 +6,7 @@
 namespace dropboxQt{
     class DropboxAppInfo;
 
-    class DropboxWebAuth
+    class DROPBOXQT_DLLSPEC DropboxWebAuth
     {
     public:
         /**
