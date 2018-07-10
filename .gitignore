@@ -1,5 +1,6 @@
 *.o
 *.a
+*.user
 .qmake.stash
 Makefile
 moc_*.cpp
